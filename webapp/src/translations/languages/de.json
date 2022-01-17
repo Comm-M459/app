@@ -702,10 +702,10 @@
         "transactionSuccessMsg": "Die Transaktion war erfolgreich. Dein Wallet-Guthaben wird aktualisiert, sobald die Transaktion durch die DeFiChain bestätigt ist.",
         "backToWallet": "Zurück zur Wallet",
         "dfiAddress": "DFI-Adresse",
-        "pleaseTransferFunds": "Bitte überweise einige DFIs auf dein Konto",
+        "pleaseTransferFunds": "Bitte überweise einige DFI auf dein Konto",
         "txHash": "Transaktion-Hash",
         "insufficientUtxos": "Ungenügend UTXOS",
-        "sendLPWarning": "Es scheint, als würdest Du Liquiditätspool-Anteile (LP) Token versenden. Bitte beachte, dass das Senden deiner LP-Token an eine andere DeFiChain-Adresse deinen Liquiditätspool-Anteil an diese Adresse überträgt. Das Versenden von LP-Token an einen anderen Ort als eine andere DeFiChain-Wallet, wie z.B. eine Börse, kann zu einem irreversiblen Verlust der Gelder führen.",
+        "sendLPWarning": "Es scheint, als würdest du Liquiditätspool-Anteile (LP-Token) versenden. Bitte beachte, dass das Senden deiner LP-Token an eine andere DeFiChain-Adresse deinen Liquiditätspool-Anteil an diese Adresse überträgt. Das Versenden von LP-Token an einen anderen Ort als eine andere DeFiChain-Wallet, wie z.B. eine Börse, kann zu einem irreversiblen Verlust der Gelder führen.",
         "sendLPConfirm": "Ich bestätige, dass ich beabsichtige, LP-Token zu senden und nehme zur Kenntnis, dass das Senden von LP-Token an Adressen, die keine DeFiChain-Wallets sind, zu einem irreversiblen Verlust von Geldern führen kann."
       },
       "receivePage": {
@@ -737,8 +737,8 @@
         "addReceiveAddress": "Eine Empfangsadresse hinzufügen",
         "address": "Adresse",
         "enterAnAddress": "Gib eine Adresse für dein Konto ein",
-        "existingAddressOthers": "Ungültige Adresse. Bitte versichere dich, dass diese Adresse dir gehört.",
-        "existingAddress": "Adresse im Wallet vorhanden.",
+        "existingAddressOthers": "Ungültige Adresse. Bitte überprüfe, ob diese Adresse zu deinen gehört.",
+        "existingAddress": "Adresse existiert bereits.",
         "invalidAddress": "Ungültige Adresse."
       },
       "paymentRequests": {
@@ -810,8 +810,8 @@
         "csv": "CSV",
         "blockReward": "Block-Belohnung",
         "whatAreTokens": "Was sind Token?",
-        "tokenDescription": "DeFiChain nutzt Token-Standards, um externe Token auf vertrauenswürdiger Weise einzubringen, was vertrauenslose Finanzverträge und den Handel mit allen wichtigen Krypto-Asset-Token ermöglicht. Die Token-Standards sind ähnlich wie ERC20 auf Ethereum oder Omni auf der Bitcoin-Blockchain. Mit diesem Standard ermöglicht DeFiChain die Tokenisierung von beliebigen Assets.",
-        "tokenSub": "Auf der DeFiChain werden die standardisierten Token DeFi Standard Token (DST) genannt. DST-Tokens teilen sich in zwei verschiedene Arten auf: DCT, die von Nutzern des Systems erstellt werden und DAT, bei denen es sich um Token handelt, die gedeckt sind und mit der Unterstützung von Krypto-Assets erstellt werden.",
+        "tokenDescription": "DeFiChain nutzt Token-Standards, um externe Token auf vertrauenswürdige Weise einzubringen, was vertrauensunabhängige Finanzverträge und den Handel mit allen wichtigen Krypto-Asset-Token ermöglicht. Die Token-Standards sind ähnlich wie ERC20 auf Ethereum oder Omni auf der Bitcoin-Blockchain. Mit diesem Standard ermöglicht die DeFiChain die Tokenisierung von beliebigen Assets.",
+        "tokenSub": "Auf der DeFiChain werden die standardisierten Token DeFi Standard Token (DST) genannt. DST-Token teilen sich in zwei verschiedene Arten auf: DCT, die von Nutzern des Systems erstellt werden und DAT, bei denen es sich um Token handelt, die gedeckt sind und mit der Unterstützung von Krypto-Assets erstellt werden.",
         "moreInformation": "Mehr Informationen unter:",
         "token": "Token",
         "utxo": "UTXO",
@@ -821,7 +821,7 @@
         "convert": "Konvertieren",
         "utxoVsToken": "UTXO vs Token",
         "twoForms": "DFI existiert in zwei Formen - UTXO und Token, die je nach Verwendung ausgetauscht werden können. Du kannst innerhalb der App leicht zwischen den beiden Formen wechseln.",
-        "mainForm": "UTXO DFI ist die Hauptform von DFI und wird für die Kernaufgaben der Kryptowährung, wie das Senden, das Empfangen oder Gebühren, benutzt. Token DFI werden für DeFi-Funktionen, wie Swaps und Liquidity Mining verwendet.",
+        "mainForm": "UTXO DFI ist die Hauptform von DFI und wird für die Kernaufgaben der Kryptowährung wie das Senden, das Empfangen oder Gebühren, benutzt. Token-DFI werden für DeFi-Funktionen, wie Tauschgeschäfte und Liquiditätsmining verwendet.",
         "dfiBalance": "Dein angezeigtes DFI Guthaben umfasst beides, DFI in UTXO- und in Token-Form."
       },
       "walletWalletsPage": {
@@ -925,8 +925,8 @@
     "updateAppNotice": "DeFi-Anwendung neu starten, um das neue Update anzuwenden. Möchtest du neu starten?",
     "restartNowNotice": "Jetzt neu starten",
     "restartLaterNotice": "Später",
-    "showUpdateAvailableHeader": "Ein Update ist für die DeFi-Wallet verfügbar",
-    "showUpdateAvailableNotice": "Möchtest du updaten? Bitte lass die DeFi-Wallet für die nächsten 30 Minuten laufen, dann wird das Pruning durchgeführt und der benötigte Speicherplatz auf deinem Computer reduziert.",
+    "showUpdateAvailableHeader": "Ein Update ist für die DeFi Wallet verfügbar",
+    "showUpdateAvailableNotice": "Möchtest du updaten? Bitte lass die DeFi Wallet für die nächsten 30 Minuten laufen, dann wird das Pruning durchgeführt und der benötigte Speicherplatz auf deinem Computer reduziert.",
     "yesShowUpdateAvailableButton": "Update",
     "noShowUpdateAvailableButton": "Nicht jetzt",
     "startUpdateLabel": "Update einleiten",
@@ -969,7 +969,7 @@
     "skipBackup": "Backup überspringen",
     "backupWalletWarning": "Wenn du eine neue Wallet erstellst oder wiederherstellst, werden alle vorhandenen Wallets in der App überschrieben. Möchtest du deine bestehende Wallet sichern?",
     "restartWalletModalHeader": "Neustart erforderlich",
-    "restartWalletWarningNotice": "Du musst die DeFi-Wallet neu starten. Möchtest du jetzt neu starten?",
+    "restartWalletWarningNotice": "Du musst die DeFi Wallet neu starten. Möchtest du jetzt neu starten?",
     "yesRestartWalletNotice": "Jetzt neu starten",
     "noRestartWalletNotice": "Später",
     "resetWalletNoticeTitle": "Wallet zurücksetzen",
@@ -1005,7 +1005,7 @@
     "verifyingSnapshot": "Snapshot wird verifiziert...",
     "installingSnapshot": "Snapshot wird installiert...",
     "snapshotApplied": "Snapshot wurde angewandt",
-    "startSyncBlock": "DeFi-Wallet wird die Synchronisation nun von Block %{from} starten.",
+    "startSyncBlock": "DeFi Wallet wird die Synchronisation nun von Block %{from} an starten.",
     "pleaseWait": "Bitte warte...",
     "snapshotSize": "Größe des Snapshots:",
     "snapshotDirectory": "Snapshot-Verzeichnis:",
@@ -1014,9 +1014,9 @@
     "exitWallet": "Wallet beenden"
   },
   "general": {
-    "defiApp": "DeFi-Wallet",
+    "defiApp": "DeFi Wallet",
     "updateFailed": "Bei der Überprüfung auf ein Software-Update ist ein Fehler aufgetreten. Bitte lade manuell die neueste Version von defichain.com herunter. (Lade die App nur von offiziellen Quellen herunter)",
-    "quitingApp": "Beenden der DefiChain-App...",
+    "quitingApp": "Beenden der Defi Wallet-App...",
     "doNotCloseWindow": "Schalte den Computer nicht aus, während dieses Fenster noch geöffnet ist."
   },
   "update": {
@@ -1025,6 +1025,6 @@
     "currentVersion": "Aktuelle Version",
     "requiredVersion": "Erforderliche Version",
     "availableVersion": "Verfügbare Version",
-    "updateReason": "Ein Upgrade ist erforderlich, damit sich die DeFi-Wallet weiterhin mit dem richtigen DeFiChain-Netzwerk verbinden kann. Du wirst keine Transaktionen durchführen können, bis du aktualisierst."
+    "updateReason": "Ein Upgrade ist erforderlich, damit sich die DeFi Wallet weiterhin mit dem richtigen DeFiChain-Netzwerk verbinden kann. Du wirst keine Transaktionen durchführen können, bis du aktualisierst."
   }
 }
