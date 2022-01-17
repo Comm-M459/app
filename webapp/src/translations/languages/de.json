@@ -988,7 +988,7 @@
     "nodeVersionHeader": "Nodeupdate",
     "masternodesAlert": "Du betreibst derzeit einen Masternode. Das Minten wird auf einer gesperrten Wallet nicht funktionieren. Möchtest du trotzdem fortfahren?",
     "downloadSnapshot": "Download snapshot",
-    "syncNode": "Sync Node",
+    "syncNode": "Node synchronisieren",
     "snapshot": "Snapshot",
     "snapshotSyncRecommended": "Snapshot-Synchronisation empfohlen",
     "downloadingSnapshot": "Snapshot wird heruntergeladen",
