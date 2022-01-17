@@ -174,7 +174,7 @@ a{
       "createMasterNode": {
         "title": "Erstelle Masternode",
         "masterNodeName": "Masternode-Name",
-        "lackOfBalanceMsg": "Aufgrund von fehlendem Guthaben ist das Erstellen eines Masternodes nicht möglich. Mindestens 20,000 DFI ist zum Erstellen des Masternodes erforderlich.",
+        "lackOfBalanceMsg": "Aufgrund von fehlendem Guthaben ist das Erstellen eines Masternodes nicht möglich. Mindestens 20 000 DFI sind zum Erstellen des Masternodes erforderlich.",
         "confirmationText": "Bist du sicher, dass du einen Masternode erstellen willst?",
         "restartNodeConfirmationText": "Bist du sicher, dass du deinen Node neu starten willst?",
         "createNodeButton": "Erstelle einen Masternode",
@@ -185,11 +185,11 @@ a{
         "backToMasternodePage": "Schließen",
         "restartNodeButton": "Node neu starten",
         "masterNodeSuccess": "Du kannst die Masternodekonfiguration manuell in defi.conf oder automatisch durch Neustart des Nodes einstellen.",
-        "collaterAddress": "Kollateral-Adresse",
+        "collaterAddress": "Sicherheiten-Adresse",
         "masternodeOperatorNotOptional": "Operator-Adresse",
         "masternodeOperatorOptional": "Operator-Adresse (Optional)",
         "noticeMasternodeOperator": "Wenn Masternode-Betreiber und Eigentümer nicht identisch sind",
-        "noticeMasternodeOwner": "Adresse des Eigentümers, von dem die Kollateral-Mittel bezogen werden"
+        "noticeMasternodeOwner": "Adresse des Eigentümers, von dem die Sicherheiten bezogen werden"
       },
       "masternodeDetailPage": {
         "masternodeDetailTitle": "Masternode-Detail-Seite %{hash}",
@@ -200,7 +200,7 @@ a{
         "state": "Zustand",
         "hash": "Hash",
         "registered": "Registriert",
-        "mintedBlocks": "Minted Blocks",
+        "mintedBlocks": "Gemintete Blöcke",
         "resignHeight": "Resign Height",
         "resignTx": "Resign Tx",
         "banHeight": "Ban Height",
@@ -334,8 +334,8 @@ a{
         "txnHash": "Txn Hash",
         "age": "Alter",
         "from": "Von",
-        "to": "An",
-        "amount": "Anzahl"
+        "to": "In",
+        "amount": "Betrag"
       },
       "dctDistribution": {
         "back": "ZURÜCK",
