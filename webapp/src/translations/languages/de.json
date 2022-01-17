@@ -79,7 +79,7 @@
         "merkleRoot": "Merkle-Root"
       },
       "blockTxn": {
-        "noInputs": "Keine Eingänge (Neu generierte Coins)",
+        "noInputs": "Keine Eingänge (neu generierte Coins)",
         "copied": "Kopiert!",
         "dFI": "DFI",
         "unparsedAddress": "Nicht geparste Adresse",
