@@ -1016,7 +1016,7 @@
   "general": {
     "defiApp": "DeFi Wallet",
     "updateFailed": "Bei der Überprüfung auf ein Software-Update ist ein Fehler aufgetreten. Bitte lade manuell die neueste Version von defichain.com herunter. (Lade die App nur von offiziellen Quellen herunter)",
-    "quitingApp": "Beenden der Defi Wallet-App...",
+    "quitingApp": "Beenden der Defi Wallet App...",
     "doNotCloseWindow": "Schalte den Computer nicht aus, während dieses Fenster noch geöffnet ist."
   },
   "update": {
