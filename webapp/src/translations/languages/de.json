@@ -1,4 +1,4 @@
-{
+a{
   "components": {
     "keyValueLi": {
       "copied": "Kopiert!"
@@ -358,7 +358,7 @@
       "liquidityPage": {
         "title": "Liquidität",
         "yourLiquidity": "Deine Liquidität",
-        "yourLiquidityInfo": "Du kannst jetzt das Liquiditätsmining für potentiell hohe Erträge nutzen. Wähle unten ein Pool-Paar aus, stelle Liquidität bereit, um die DEX (dezentralisierte Börse) zu unterstützen, damit du anfangen kannst, Gebühren und jährliche Erträge zu verdienen. Du kannst jederzeit auszahlen.",
+        "yourLiquidityInfo": "Du kannst jetzt Liquiditätsmining betreiben, um potenziell hohe Renditen zu erzielen. Wähle unten ein Pool-Paar aus, stelle Liquidität bereit, um die DEX (dezentrale Börse) zu unterstützen, um Gebühren und das ganze Jahr über Erträge zu verdienen. Du kannst jederzeit auszahlen.",
         "noLiquidity": "Keine Liquidität gefunden. Möchtest du dem Pool Liquidität hinzufügen?",
         "loading": "Laden...",
         "watchVideo": "Video ansehen",
@@ -394,7 +394,7 @@
     "swap": {
       "swapPage": {
         "title": "DEX",
-        "decentralizedExchange": "Decentralized Exchange",
+        "decentralizedExchange": "Dezentrale Börse",
         "decentralizedExchangeInfo": "Willkommen bei der DeFiChain DEX (Decentralized Exchange) — einer Börse ohne Verwahrstelle oder Aufsicht, die vollständig und wirklich dezentralisiert ist.",
         "swap": "Tausch",
         "pool": "Pool",
@@ -404,7 +404,7 @@
         "cancel": "Abbrechen",
         "from": "Von",
         "to": "An",
-        "balance": "Balance",
+        "balance": "Guthaben",
         "max": "Max",
         "selectToken": "Token wählen",
         "searchToken": "Suche nach einem Token, Namen oder Adresse",
@@ -713,7 +713,7 @@
         "wallet": "Wallet",
         "receiveDFI": "DFI empfangen",
         "optional": "Optional",
-        "amount": "Höhe",
+        "amount": "Betrag",
         "dFI": "DFI",
         "message": "Nachricht",
         "label": "Label",
@@ -769,7 +769,7 @@
         "tokens": "Token",
         "walletDeFiApp": "Wallet",
         "walletDefiClient": "Wallet",
-        "wallet": "wallet",
+        "wallet": "Wallet",
         "balances": "Guthaben",
         "wallets": "Wallets",
         "delete": "Löschen",
