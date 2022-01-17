@@ -961,7 +961,7 @@
     "unlock": "Entsperren",
     "enterYourPassphrase": "Gib dein Passwort ein",
     "walletUnlockTitle": "Willkommen zurück",
-    "walletUnlockMessage": "Gib dein Passwort ein und wähle eine Dauer für deine entsperrte Wallet aus.",
+    "walletUnlockMessage": "Gib dein Passwort ein und wähle die Dauer des Entsperrens deiner Wallet.",
     "walletUnlockMasternodeMessage": "Du betreibst derzeit einen Masternode auf einem gesperrten Wallet. Du musst deine Wallet mit deinem Passwort entsperren, um weiter minten zu können.",
     "lostPassphraseMessage": "Ich habe mein Passwort vergessen.",
     "backupWalletWarningModelHeader": "Wallet-Sicherungswarnung",
