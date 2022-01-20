@@ -1,4 +1,4 @@
-{
+ {
   "components": {
     "keyValueLi": {
       "copied": "Copié!"
@@ -547,16 +547,18 @@
       "general": "Général",
       "display": "Affichage",
       "launchOptions": "Lancement des options",
+      "launchAtLogin": "Lancement au démarage",
       "reindexOption": "ReIndex option",
       "reindexAfterSaving": "Reindex after saving",
-      "launchAtLogin": "Lancement au démarage",
+      "refreshUtxos": "Refresh UTXOs",
+      "refreshUtxosAfterSaving": "Refresh UTXOs after saving",
       "minimizedAtLaunch": "Minimisé au démarage",
       "storage": "Espace de stockage",
       "pruneBlockStorage": "Élaguer stockage de bloc",
       "blockPruneStorage": "Stockage de bloc à élaguer",
       "gb": "GB",
-      "databaseSize": "Taille de la base de données cache",
       "utxoConsolidator": "Consolidateur UTXO",
+      "databaseSize": "Taille de la base de données cache",
       "maximumAmount": "Valeur maximale de chaque UTXO",
       "maximumCount": "Nombre maximum d'UTXOs",
       "feeRate": "Taux de frais spécifiques en DFI/kB",
@@ -570,6 +572,7 @@
       "chinese": "Chinese (Simplified)",
       "chinese_traditional": "Chinese (Traditional)",
       "dutch": "Dutch",
+      "russian": "Russe",
       "displayAmount": "Afficher les montants en unité",
       "dFI": "DFI",
       "fi": "fi",
