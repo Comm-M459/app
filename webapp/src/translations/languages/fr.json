@@ -7,12 +7,16 @@
       "synchronized": "Synchronisé",
       "syncing": "En cours de synchronisation",
       "waitingForSyncStatus": "En attente de l'état de synchronisation…",
+      "downloading": "Téléchargement de l'update",
       "synced": "Synchronisé",
       "justNow": "Synchronisé à l'instant",
       "aMinuteAgo": "Synchronisé il y a une minute",
       "blockInfo": "Bloc %{latestSyncedBlock} sur %{latestBlock}",
       "network": "Réseau",
-      "downloading": "Téléchargement de l'update"
+      "preparingSync": "Preparing sync",
+      "connectedToPeers": "Connected to %{peers} peers",
+      "atBlock": "At block %{block}",
+      "lookingForPeers": "Looking for peers"
     },
     "swapCard": {
       "selectAToken": "Select a token",
@@ -26,17 +30,21 @@
   "containers": {
     "sideBar": {
       "balance": "Solde",
+      "balances": "Soldes",
       "dfi": "DFI",
       "wallets": "Portefeuilles",
       "dex": "DEX",
       "masterNodes": "Masternodes",
       "blockchain": "Blockchain",
       "tokens": "Tokens",
+      "swap": "Échanger",
       "exchange": "Échange",
       "help": "Aide",
       "settings": "Paramètres",
       "console": "Console",
       "liquidity": "Liquidity"
+      "selectCreateRestore": "Select, create or restore a wallet to access wallet functions",
+      "transactions": "Transactions"
     },
     "blockChainPage": {
       "blockChainPage": {
@@ -89,7 +97,8 @@
       "title": "Centre de traitement des blocs DFI",
       "header": "Centre de traitement des blocs DFI",
       "detail": "Vous semblez avoir atterri ici par accident. C'est ici que nos employés s'assurent que chaque bloc DFI est ajouté correctement à la chaine. Il s'agit donc d'une zone interdite et nous vous prions de faire demi-tour",
-      "goBack": "Faites demi-tour"
+      "goBack": "Faites demi-tour",
+      "insufficientFunds": "Insufficient UTXO DFI for transaction fees. Please send some DFI from an exchange or another wallet and try again."
     },
     "exchangePage": {
       "title": "Échange",
@@ -100,7 +109,20 @@
     "helpPage": {
       "title": "Aide",
       "help": "Aide",
-      "section": "Section"
+      "helpPageHeader": "Connect with the community with these options:",
+      "telegramEn": "Telegram community (EN)",
+      "telegramDe": "Telegram community (DE)",
+      "telegramZh": "Telegram community (ZH)",
+      "github": "Report an issue",
+      "faq": "Frequently-Asked Questions",
+      "defichainsite": "Official website",
+      "reddit": "Reddit community",
+      "helpTextFooterLine1": "DeFiChain is a community-driven and open project.",
+      "helpTextFooterLine2": "The DeFiChain Foundation does not provide direct support.",
+      "section": "Section",
+      "wiki": "Community Wiki",
+      "wechat": "WeChat",
+      "defiscan": "DeFiScan"
     },
     "masterNodes": {
       "masterNodesPage": {
@@ -129,7 +151,17 @@
         "collateral": "Collateral",
         "collateralsActive": "Collaterals active",
         "collateralsInactive": "Collaterals inactive",
-        "dFIMinted": "DFI minted"
+        "dFIMinted": "DFI minted",
+        "created": "Created",
+        "resigned": "Resigned",
+        "preresigned": "Pre-resigned",
+        "enable": "Enable",
+        "disable": "Disable",
+        "restartNeeded": "You need to restart DeFi Wallet to apply these changes. Do you want to restart?",
+        "tooltipMasternode": "If you have a masternode, your app needs to be open with an unlocked wallet to be able to mint.",
+        "preenabled": "Pre-enabled",
+        "prebanned": "Pre-banned",
+        "banned": "Banned"
       },
       "masterNodesList": {
         "ownerAddress": "Adresse du propriétaire",
@@ -185,6 +217,143 @@
         "network": "Réseau"
       }
     },
+    "tokens": {
+      "tokensPage": {
+        "title": "Tokens",
+        "loading": "Loading...",
+        "createToken": "Create",
+        "tokens": "Tokens",
+        "searchTokens": "Search tokens",
+        "dat": "DAT",
+        "dct": "DCT",
+        "paginationRange": "%{from} – %{to} of %{total} tokens",
+        "remove": "Remove",
+        "datLabels": {
+          "type": "Type",
+          "price": "Price",
+          "volume": "Volume (24H)",
+          "marketCap": "Market cap",
+          "holders": "Holders",
+          "decimal": "Decimal",
+          "limit": "Limit",
+          "mintingSupport": "Minting support",
+          "tradeable": "Tradeable",
+          "liquidityTokenFor": "Liquidity token for"
+        },
+        "dctLabels": {
+          "id": "ID",
+          "totalInitialSupply": "Total initial supply",
+          "finalSupplyLimit": "Final supply limit",
+          "mintingSupport": "Minting support",
+          "tradeable": "Tradeable",
+          "type": "Type",
+          "decimal": "Decimal",
+          "limit": "Limit",
+          "liquidityTokenFor": "Liquidity token for"
+        }
+      },
+      "createToken": {
+        "back": "BACK",
+        "yes": "Yes",
+        "no": "No",
+        "address": "Address",
+        "label": "Label",
+        "selected": "Selected",
+        "cancel": "Cancel",
+        "continue": "Continue",
+        "createTitle": "Create token",
+        "updateTitle": "Update DCT (DeFi Custom Token)",
+        "name": "Name of token",
+        "symbol": "Ticker symbol",
+        "decimal": "Decimal",
+        "decimalText": "Number of decimal places. Cannot be changed once set.",
+        "limit": "Limit",
+        "mintingSupport": "Minting support?",
+        "mintText": "You can mint tokens after it has been created.",
+        "optionalFinalSupplyLimit": "Final supply limit (optional)",
+        "optionalFinalSupplyLimitText": "Immutable total supply limit. Leave blank for unlimited supply. Cannot be changed once set.",
+        "tradeable": "Trade-able?",
+        "dfiRequired": "DFI required",
+        "collateralAddress": "Collateral address",
+        "collateralAddressError": "Minimum 101 DFI is required",
+        "createTokenButton": "Create token",
+        "createConfirmationText": "Are you sure you want to create a token?",
+        "updateConfirmationText": "Are you sure you want to update a token?",
+        "createTokenSuccess": "Token has been created successfully",
+        "updateTokenSuccess": "Token has been updated successfully",
+        "tokenHash": "Token Hash",
+        "backToTokenPage": "Back to token",
+        "updateTokenButton": "Update token"
+      },
+      "tokenInfo": {
+        "back": "Back",
+        "name": "Name",
+        "symbol": "Symbol",
+        "type": "Type",
+        "price": "Price",
+        "id": "ID",
+        "decimals": "Decimals",
+        "holders": "Holders",
+        "limit": "Limit",
+        "minitingSupport": "Minting support",
+        "tradeable": "Trade-able?",
+        "marketCap": "Market cap",
+        "volume": "Volume (24H)",
+        "officialSite": "Official site",
+        "transfers": "Transfers",
+        "info": "Info",
+        "exchange": "Exchange",
+        "dex": "DEX",
+        "readContract": "Read contract",
+        "writeContract": "Write contract",
+        "analysis": "Analysis",
+        "comments": "Comments",
+        "noButtonText": "Cancel",
+        "yesButtonText": "Continue",
+        "successText": "Success",
+        "backToTokenPage": "Back to token",
+        "confirmation": "Are you sure you want to destroy the token?",
+        "deleteToken": "Delete token",
+        "editToken": "Edit token",
+        "mint": "Mint",
+        "notMintedAlert": "You have not minted the token"
+      },
+      "mintToken": {
+        "title": "Mint",
+        "back": "Back",
+        "amountToMint": "Amount to mint",
+        "amount": "Amount",
+        "cancel": "Cancel",
+        "continue": "continue",
+        "pleaseVerifyAmount": "Please verify amount",
+        "completeMint": "Complete mint",
+        "transactionSuccessMsg": "Transaction successful. Your token balance will update once the transaction has been confirmed by DeFiChain.",
+        "backToToken": "Back to tokens"
+      },
+      "transfersList": {
+        "txnHash": "Txn hash",
+        "age": "Age",
+        "from": "From",
+        "to": "To",
+        "amount": "Amount"
+      },
+      "dctDistribution": {
+        "back": "Back",
+        "add": "Add",
+        "cancel": "Cancel",
+        "continue": "Continue",
+        "dfiRequired": "DFI required",
+        "chooseFile": "Choose file",
+        "dctDistribution": "DCT distribution",
+        "uploadCsv": "Upload CSV",
+        "addAddress": "Add address",
+        "address": "Address",
+        "addAddressesText": "Add addresses to your initial distribution list.",
+        "enterDfiAddress": "Enter DFI address",
+        "dragAndUploadCSV": "Drag or choose a CSV file to upload.",
+        "verifyingCollateral": "Verifying collateral"
+      }
+    },
     "liquidity": {
       "liquidityPage": {
         "title": "Liquidity",
@@ -200,15 +369,19 @@
         "liquidityPools": "Liquidity pools",
         "volume": "Volume",
         "apy": "APY",
+        "apr": "APR",
         "back": "Back",
         "addLiquidity": "Add liquidity",
-        "txHash": "Transaction hash"
+        "txHash": "Transaction Hash",
+        "blockTransactionFailed": "Please wait for your transaction to be reflected in the next block before proceeding with a new transaction.",
+        "paginationRange": "%{from} – %{to} of %{total} pairs"
       },
       "liquidityInfo": {
         "title": "Liquidity",
         "addMore": "Add more",
         "remove": "Remove",
         "apy": "APY",
+        "apr": "APR",
         "pooled": "Pooled",
         "poolShare": "Pool share percentage",
         "pooledBTC": "Pooled BTC",
