@@ -373,15 +373,15 @@
         "back": "Back",
         "addLiquidity": "Add liquidity",
         "txHash": "Transaction Hash",
-        "blockTransactionFailed": "Please wait for your transaction to be reflected in the next block before proceeding with a new transaction.",
-        "paginationRange": "%{from} – %{to} of %{total} pairs"
+        "blockTransactionFailed": "Veuillez attendre que votre transaction soit prise en compte dans le bloc suivant avant de procéder à une nouvelle transaction.",
+        "paginationRange": "%{from} – %{to} sur %{total} paires"
       },
       "liquidityInfo": {
-        "title": "Liquidity",
-        "addMore": "Add more",
+        "title": "Liquidité",
+        "addMore": "Ajouter plus",
         "remove": "Remove",
-        "apy": "APY",
-        "apr": "APR",
+        "apy": "TAP",
+        "apr": "TAEG",
         "pooled": "Pooled",
         "poolShare": "Pool share percentage",
         "pooledBTC": "Pooled BTC",
