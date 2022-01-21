@@ -651,37 +651,42 @@
         "learnMoreAtBitcoinBtn": "Learn more at Bitcoin Wiki",
         "generateNewSet": "Générer 24 nouveaux mots",
         "copied24Words": "J'ai pris note de ces 24 mots dans l'ordre exact",
-        "continue": "CONTINUER",
+        "continue": "Continuer",
         "createNewWallet": "Créer un nouveau portefeuille"
       },
       "verifyMnemonicPage": {
-        "back": "RETOUR",
         "title": "Portefeuille - Vérifier phrase mnémonique",
+        "back": "RETOUR",
         "verifyMnemonicSeed": "Vérifier la phrase mnémonique",
         "verifyMnemonicGuideline": "Afin d'être sûr que vous ayez pris note de la phrase mnémonique, veuillez sélectionner 6 mots présents dans votre phrase dans la liste ci-dessous.",
         "verifyMnemonicWhichOne": "Which one is…",
-        "wordQuestion": "Word %{wordNum}?",
-        "showAgain": "Montrez-moi la phrase mnémonique de nouveau",
+        "wordQuestion": "Mot N° %{wordNum}?",
         "creatingYourWallet": "Création du portefeuille",
+        "backToWalletPage": "Fermer",
         "skipVerificationTextHeader": "Skip at your own risk",
         "skipVerificationText": "Please ensure you have written down your 24-word wallet recovery seed, in the correct order. Without your wallet recovery seed, you will not be able to recover your wallet or restore it again.",
+        "showAgain": "Montrez-moi la phrase mnémonique de nouveau",
         "dontSkip": "Don't skip verification",
         "skip": "Skip",
-        "backToWalletPage": "FERMER"
+        "continue": "Continuer"
       },
       "restoreWalletPage": {
-        "back": "RETOUR",
+        "back": "Retour",
         "title": "Portefeuille - Restaurer portefeuille",
         "restoreWallet": "Restaurer portefeuille",
         "restoreWalletGuideLine": "Entrer la phrase mnémonique de 24 mots pour restaurer votre portefeuille.",
+        "enterWord": "Donnez le mot",
         "restoringWallet": "Restauration du portefeuille",
         "restore": "RESTAURER",
-        "backToWalletPage": "FERMER"
+        "backToWalletPage": "FERMER",
+        "importingWallet": "Importing wallet"
       },
       "sendPage": {
-        "sendDFITitle": "Envoi de DFI",
+        "sendTitle": "Envoyer",
         "wallet": "Portefeuille",
+        "sendDFITitle": "Envoi de DFI",
         "sendDFI": "Envoyer DFI",
+        "send": "Envoyer"
         "amount": "Montant",
         "dFI": "DFI",
         "max": "Max",
@@ -697,8 +702,11 @@
         "transactionSuccessMsg": "Paiement effectué avec succès. Le solde de votre portefeuille sera actualisé une fois la transaction confirmée par la Blockchain DeFi.",
         "backToWallet": "Retour au portefeuille",
         "dfiAddress": "Adresse DFI",
+        "pleaseTransferFunds": "Please transfer some DFIs to your account",
         "txHash": "Transaction Hash",
-        "insufficientUtxos": "Insufficient UTXOS"
+        "insufficientUtxos": "Insufficient UTXOS",
+        "sendLPWarning": "It appears you are sending liquidity pools share (LP) tokens. Please be aware that sending your LP tokens to another DeFiChain address will transfer your liquidity pool share to that address. Sending LP tokens anywhere other than another DeFiChain wallet, such as an exchange, may result in irreversible loss of funds.",
+        "sendLPConfirm": "I confirm that I intend to send LP tokens and I acknowledge that sending LP tokens to addresses that are not DeFiChain wallets may result in irreversible loss of funds."
       },
       "receivePage": {
         "receiveDFITitle": "Réception de DFI",
@@ -721,13 +729,29 @@
         "backButton": "Retour",
         "createButton": "Créer",
         "legacyAddress": "Adresse 'Legacy'",
-        "addressType": "Type de l'adresse"
+        "addressType": "Type de l'adresse",
+        "automaticallyGenerateNewAddress": "Automatically generate a new address",
+        "showAdvanceOptions": "Show advance options",
+        "default": "Default",
+        "legacy": "Legacy",
+        "addReceiveAddress": "Add a receive address",
+        "address": "Address",
+        "enterAnAddress": "Enter an address in your account",
+        "existingAddressOthers": "Invalid address. Please check that this belongs to you.",
+        "existingAddress": "Address already exists.",
+        "invalidAddress": "Invalid address."
       },
       "paymentRequests": {
         "time": "Date",
         "amount": "Montant",
         "message": "Message",
         "cancelRequest": "Annuler la demande"
+      },
+      "paymentRequestList": {
+        "label": "Label",
+        "address": "Address",
+        "created": "Created",
+        "warningSeedPhrase": "(Warning: Not saved by seed phrase)"
       },
       "paymentRequestPage": {
         "paymentRequestTitle": "Demande de paiement %{id}",
@@ -742,10 +766,12 @@
         "uRI": "URI"
       },
       "walletPage": {
-        "includeRewards": "Include reward transactions",
+        "tokens": "Tokens",
         "walletDeFiApp": "Portefeuille",
-        "wallet": "wallet",
-        "wallets": "Wallets",
+        "walletDefiClient": "Portefeuille",
+        "wallet": "Portefeuille",
+        "balances": "Balances",
+        "wallets": "Portefeuilles",
         "delete": "Effacer",
         "send": "Envoyer",
         "receive": "Recevoir",
@@ -756,7 +782,18 @@
         "availableBalance": "Solde disponible",
         "pending": "En attente",
         "updateAvailableLabel": "Update available",
+        "includeRewards": "Include reward transactions",
+        "loading": "Loading...",
+        "category": "Category",
+        "amount": "Amount",
         "txidNotApplicable": "Transaction ID not applicable",
+        "walletPaginationRange": "%{from} – %{to} of %{total} wallets",
+        "txPaginationRange": "%{from} - %{to} of %{total} transactions",
+        "commission": "Commission",
+        "csvExport": "CSV export",
+        "downloadTransaction": "Download transaction",
+        "download": "Download",
+        "maxBlock": "Max block height",
         "exportData": "EXPORT DATA",
         "exportWalletData": "Export wallet data",
         "export": "EXPORT",
@@ -771,7 +808,34 @@
         "transaction": "transactions",
         "format": "Format",
         "csv": "CSV",
-        "blockReward": "Block reward"
+        "blockReward": "Block reward",
+        "whatAreTokens": "What are tokens?",
+        "tokenDescription": "DeFiChain uses token standards to bring in external tokens in a trustless manner, allowing trustless financial contracts and trading of all major crypto-asset tokens. The token standards are similar to ERC20 on Ethereum and Omni on Bitcoin blockchain. Through this standard, DeFiChain allows tokenization of any assets.",
+        "tokenSub": "On DeFiChain, the standardized tokens are called DeFi Standard Token (DST). DST tokens are of two different types: DCT, created by users of the system, and DAT, which are asset-backed tokens created with the backing of crypto-assets.",
+        "moreInformation": "More information at:",
+        "token": "Token",
+        "utxo": "UTXO",
+        "convertFrom": "Convert from",
+        "to": "To",
+        "utxoVsDFI": "UTXO DFI vs Token DFI, what's the difference?",
+        "convert": "Convert",
+        "utxoVsToken": "UTXO vs Token",
+        "twoForms": "DFI exists in two forms – UTXO and Token, which are interchangeable depending on the usage. You can easily convert between the two forms within the app.",
+        "mainForm": "UTXO DFI is the main form DFI and is used for core cryptocurrency purposes like send, receive and fees. Token DFI are used for DeFi functions such as swaps and liquidity mining.",
+        "dfiBalance": "Your DFI balance includes both UTXO and Token form."
+      },
+      "walletWalletsPage": {
+        "walletWallets": "Wallets",
+        "wallets": "Wallets",
+        "addWallet": "Add wallet",
+        "addBalance": "Add Balance"
+      },
+      "walletAddTokensPage": {
+        "walletAddTokens": "Wallet – Add token",
+        "back": "Back",
+        "add": "Add",
+        "tokens": "Tokens",
+        "addWalletLabel": "Add a token"
       },
       "walletTxns": {
         "height": "Hauteur",
@@ -779,12 +843,35 @@
         "amount": "Montant",
         "hash": "Hash",
         "paginationRange": "%{from} – %{to} sur %{total} transactions",
-        "noTransactions": "Aucune transaction disponible"
+        "noTransactions": "Aucune transaction disponible",
+        "accountToAccount": "Account to account",
+        "utxosToAccount": "UTXOs to account",
+        "addPoolLiquidity": "Add liquidity",
+        "sent": "Sent",
+        "removePoolLiquidity": "Remove liquidity",
+        "accountToUtxos": "Account to UTXOs"
       },
-      "paymentRequestList": {
-        "label": "Label",
-        "address": "Address",
-        "created": "Created"
+      "encryptWalletPage": {
+        "title": "Encrypt wallet",
+        "encryptingWallet": "Encrypting wallet",
+        "unableToUnlockYourWallet": "Unable to unlock your wallet? Reset DeFi Wallet to default data and settings, then restore your wallet from your wallet recovery seed or backup (wallet.dat).",
+        "walletIsLocked": "Wallet locked. To proceed with your transaction, please unlock with passphrase.",
+        "passphraseStrength": "Passphrase strength: %{strength}",
+        "strong": "Strong",
+        "weak": "Weak",
+        "none": "None"
+      },
+      "unlockWalletPage": {
+        "title": "Unlock wallet"
+      }
+    },
+    "transaction": {
+      "transactionPage": {
+        "transactions": "Transactions",
+        "filterByAsset": "Filter by asset",
+        "all": "All",
+        "includeRewards": "Include rewards",
+        "allAssets": "All assets"
       }
     },
     "console": {
