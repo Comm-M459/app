@@ -999,7 +999,7 @@
     "snapshotRegion": "Region de l'instantané :",
     "afterDownload": "Après le téléchargement, l'instantané sera vérifié par le nœud avant d'être appliqué, à des fins de sécurité. Le nœud redémarrera une fois que l'instantané aura été appliqué. Dans le cas d'un instantané invalide, la synchronisation de l'instantané échouera, et l'application reviendra à une synchronisation complète.",
     "continueWithSnapshot": "CONTINUER AVEC UN INSTANTANÉ",
-    "downloading": "Téléchargement:::",
+    "downloading": "Téléchargement...",
     "applyingSnapshot": "Application de l'instantané",
     "unpackingSnaphot": "Déballage de l'instantané de %{address}",
     "verifyingSnapshot": "Vérification de l'instantané...",
