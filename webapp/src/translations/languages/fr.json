@@ -372,7 +372,7 @@
         "apr": "TAEG",
         "back": "Retour",
         "addLiquidity": "Add liquidity",
-        "txHash": "Transaction Hash",
+        "txHash": "Hash de la transaction",
         "blockTransactionFailed": "Veuillez attendre que votre transaction soit prise en compte dans le bloc suivant avant de procéder à une nouvelle transaction.",
         "paginationRange": "%{from} – %{to} sur %{total} paires"
       },
@@ -440,7 +440,7 @@
         "poweredLiquidityPoolsInfo": "Les échanges sont réalisés par des pools de liquidité automatisés, et non via des carnets d'ordres centralisés.",
         "swaping": "Échanger",
         "amountInsufficient": "Montant insuffisant sur votre compte",
-        "txHash": "Transaction Hash",
+        "txHash": "Hash de la transaction",
         "somethingWentWrong": "Il y a eu un problème",
         "priceImpactWarning": "Le volume de l'échange dépasse %{percentage}% de la valeur du pool. L'échange aura un impact considérable sur les prix.",
         "preparimgUTXO": "Préparer des UTXO",
@@ -703,7 +703,7 @@
         "backToWallet": "Retour au portefeuille",
         "dfiAddress": "Adresse DFI",
         "pleaseTransferFunds": "Veuillez transférer quelques DFI sur votre compte",
-        "txHash": "Transaction Hash",
+        "txHash": "Hash de la transaction",
         "insufficientUtxos": "UTXO insuffisant",
         "sendLPWarning": "Il semble que vous envoyez des tokens de part de pool de liquidité (LP). Veuillez noter que l'envoi de vos tokens LP à une autre adresse DeFiChain transférera votre part de pool de liquidité à cette adresse. L'envoi de tokens LP ailleurs que dans un autre portefeuille DeFiChain, comme dans un échange, peut entraîner une perte irréversible des fonds.",
         "sendLPConfirm": "Je confirme mon intention d'envoyer des tokens LP et je reconnais que l'envoi de tokens LP à des adresses qui ne sont pas des portefeuilles DeFiChain peut entraîner une perte irréversible de fonds."
