@@ -140,9 +140,9 @@
         "activeMasterNodes": "Masternodes actifs",
         "supply": "Quantité",
         "lockedInCollateral": "Collatéral bloquée",
-        "costPerMasterNode": "Coût d'un Masternode",
-        "masternodeWorth": "Valeur d'un Masternode",
-        "searchBar": "Rechercher un Masternode",
+        "costPerMasterNode": "Coût d'un masternode",
+        "masternodeWorth": "Valeur d'un masternode",
+        "searchBar": "Rechercher un masternode",
         "mine": "Mine",
         "all": "All",
         "owner": "Owner",
@@ -168,20 +168,20 @@
         "operatorAddress": "Adresse de l'opérateur",
         "registered": "Enregistré",
         "mintedBlocks": "Blocs validés",
-        "noMasterNodes": "Aucun Masternode disponible",
+        "noMasterNodes": "Aucun masternode disponible",
         "loading": "Chargement..."
       },
       "createMasterNode": {
-        "title": "Créer un Masternode – Client Blockchain DeFi",
+        "title": "Créer un masternode – Client blockchain DeFi",
         "masterNodeName": "Nom du Masternode",
-        "lackOfBalanceMsg": "Fonds insuffisants, impossible de créer un Masternode. Un minimum de 20,000 de DFI est nécéssaire pour la création d'un Masternode",
-        "confirmationText": "Êtes-vous certain de vouloir créer un Masternode?",
-        "createNodeButton": "Créer un Masternode",
+        "lackOfBalanceMsg": "Fonds insuffisants, impossible de créer un masternode. Un minimum de 20,000 de DFI est nécéssaire pour la création d'un masternode",
+        "confirmationText": "Êtes-vous certain de vouloir créer un masternode?",
+        "createNodeButton": "Créer un masternode",
         "restartNodeConfirmationText": "Voulez-vous vraiment redémarrer un nœud?",
         "noButtonText": "Annuler",
         "yesButtonText": "Continuer",
-        "masternodeOperator": "Opérateur du Masternode",
-        "masternodeOwner": "Propriétaire du Masternode",
+        "masternodeOperator": "Opérateur du masternode",
+        "masternodeOwner": "Propriétaire du masternode",
         "backToMasternodePage": "Fermer",
         "restartNodeButton": "Redémarrer le nœud",
         "masterNodeSuccess": "Vous pouvez définir manuellement la configuration du nœud sous defi.conf ou la définir automatiquement en redémarrant le nœud.",
@@ -192,9 +192,9 @@
         "noticeMasternodeOwner": "Adresse du propriétaire du nœud d'où seront prélevés les fonds pour le collatéral"
       },
       "masternodeDetailPage": {
-        "masternodeDetailTitle": "Page de détail du Masternode %{hash}",
+        "masternodeDetailTitle": "Page de détail du masternode %{hash}",
         "masternode": "Masternode",
-        "masternodeDetail": "Détails du Masternode",
+        "masternodeDetail": "Détails du masternode",
         "ownerAddress": "Adresse du propriétaire",
         "operatorAddress": "Adresse de l'opérateur",
         "state": "Statut",
@@ -210,7 +210,7 @@
         "noButtonText": "Annuler",
         "yesButtonText": "Continuer",
         "successText": "Succès",
-        "backToMasternodePage": "Retour à la page Masternode"
+        "backToMasternodePage": "Retour à la page masternode"
       },
       "masternodeTab": {
         "myMasternodes": "Mine",
@@ -223,7 +223,7 @@
         "loading": "Chargement...",
         "createToken": "Créer",
         "tokens": "Tokens",
-        "searchTokens": "Recherche de Tokens",
+        "searchTokens": "Recherche de mokens",
         "dat": "DAT",
         "dct": "DCT",
         "paginationRange": "%{from} – %{to} sur %{total} tokens",
@@ -236,7 +236,7 @@
           "holders": "Détenteurs",
           "decimal": "Décimales",
           "limit": "Limite",
-          "mintingSupport": "Support au Minting",
+          "mintingSupport": "Support au minting",
           "tradeable": "Échangeable",
           "liquidityTokenFor": "Token de liquidité pour"
         },
@@ -268,7 +268,7 @@
         "decimal": "Décimales",
         "decimalText": "Nombre de décimales. Ne peut plus être modifié une fois validé.",
         "limit": "Limite",
-        "mintingSupport": "Support au Minting?",
+        "mintingSupport": "Support au minting?",
         "mintText": "Vous pouvez 'minter' des tokens après la création.",
         "optionalFinalSupplyLimit": "Émission finale totale (facultatif)",
         "optionalFinalSupplyLimitText": "Limite immuable de l'émission totale. Laisser vide pour une émission illimitée. Ne peut plus être modifiée une fois validée.",
@@ -281,7 +281,7 @@
         "updateConfirmationText": "Êtes vous sûr de vouloir modifier le token?",
         "createTokenSuccess": "Token créé avec succès",
         "updateTokenSuccess": "Token modifié avec succès",
-        "tokenHash": "Token Hash",
+        "tokenHash": "Token hash",
         "backToTokenPage": "Retour à la page Token",
         "updateTokenButton": "MODIFIER TOKEN"
       },
@@ -884,19 +884,19 @@
         "example": [
           {
             "title": "sendtoaddress",
-            "highlightText": "sendtoaddress \"address\" Betrag ( \"Kommentar\", \"comment_to\" subtractfeefromamount austauschbare conf_target \"estimate_mode\" )",
-            "cmdText": "defi-cli sendtoaddress \"1M72Sfpbz1BPpXFHz9m3CdqATR44Jvaydd\" 0.1 \"Spende\" \"seans outpost\""
+            "highlightText": "sendtoaddress \"address\" amount ( \"comment\" \"comment_to\" subtractfeefromamount replaceable conf_target \"estimate_mode\" )",
+            "cmdText": "defi-cli sendtoaddress \"1M72Sfpbz1BPpXFHz9m3CdqATR44Jvaydd\" 0.1 \"donation\" \"seans outpost\""
           },
           {
             "title": "getblock",
-            "highlightText": "getblock \"blockhash\" ( Ausführlichkeit )",
+            "highlightText": "getblock \"blockhash\" ( verbosity )",
             "cmdText": "defi-cli getblock \"00000000c937983704a73af28acdec37b049d214adbda81d7e2a3dd146f6ed09\""
           }
         ]
       },
       "consoleResultPage": {
-        "resultPage": "Résultat CLI",
-        "back": "Retour"
+        "resultPage": "CLI result",
+        "back": "Back"
       }
     }
   },
