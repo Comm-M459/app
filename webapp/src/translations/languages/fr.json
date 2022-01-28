@@ -569,7 +569,7 @@
       "english": "Anglais",
       "german": "Allemand",
       "french": "Français",
-      "chinese": "chinois (simplifié)",
+      "chinese": "Chinois (simplifié)",
       "chinese_traditional": "Chinois (traditionnel)",
       "dutch": "Néerlandais",
       "russian": "Russe",
@@ -699,7 +699,7 @@
         "pleaseVerifyAmount": "Merci de vérifier le montant et le bénéficiaire",
         "completeSend": "Finaliser l'envoi",
         "sendFailed": "Une erreur s'est produite lors de l'envoi",
-        "transactionSuccessMsg": "Paiement effectué avec succès. Le solde de votre portefeuille sera actualisé une fois la transaction confirmée par la Blockchain DeFi.",
+        "transactionSuccessMsg": "Paiement effectué avec succès. Le solde de votre portefeuille sera actualisé une fois la transaction confirmée par la blockchain DeFiChain.",
         "backToWallet": "Retour au portefeuille",
         "dfiAddress": "Adresse DFI",
         "pleaseTransferFunds": "Veuillez transférer quelques DFI sur votre compte",
@@ -849,7 +849,7 @@
         "addPoolLiquidity": "Ajout de liquidité",
         "sent": "Envoyé",
         "removePoolLiquidity": "Retirer la liquidité",
-        "accountToUtxos": "Du compte à UTXO"
+        "accountToUtxos": "De compte à UTXO"
       },
       "encryptWalletPage": {
         "title": "Crypter le portefeuille",
@@ -946,7 +946,7 @@
     "okIHaveDoneIt": "Ok, I have done it",
     "encryptWalletNoticeTitle": "Verrouiller le portefeuille",
     "encryptWalletNotice": "Permettre le verrouillage du portefeuille avec un mot de passe est recommandé pour des raisons de sécurité. Entrez le mot de passe pour déverrouiller votre portefeuille.",
-    "encryptWalletWarning": "Keep your passphrase safe. Losing it means that you need to reset the DeFi Wallet app to default settings and restore your wallets again.",
+    "encryptWalletWarning": "Gardez votre mot de passe en sécurité. Si vous la perdez, vous devrez réinitialiser l'application DeFi Wallet aux paramètres par défaut et restaurer à nouveau vos portefeuilles.",
     "enableLocking": "AUTORISER VERROUILLAGE ",
     "later": "Plus tard",
     "passphraseLabel": "Entrer mot de passe",
