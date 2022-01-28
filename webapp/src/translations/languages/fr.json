@@ -631,7 +631,7 @@
         "loading": "Chargement...",
         "restoreFromBackup": "Restaurer le portefeuille à partir d'une sauvegarde",
         "connectToALedger": "Connecter à un hardware wallet",
-        "hdWallet": "HDW wallet",
+        "hdWallet": "HD wallet (Portefeuille hiérarchique déterministe)",
         "mnemonicSeed": "Phrase mnémonique",
         "walletDat": "wallet.dat",
         "chooseRecentBackup": "Ou choisir une sauvegarde récente",
@@ -679,7 +679,7 @@
         "restoringWallet": "Restauration du portefeuille",
         "restore": "RESTAURER",
         "backToWalletPage": "FERMER",
-        "importingWallet": "Importing wallet"
+        "importingWallet": "Importation du portefeuille"
       },
       "sendPage": {
         "sendTitle": "Envoyer",
@@ -702,11 +702,11 @@
         "transactionSuccessMsg": "Paiement effectué avec succès. Le solde de votre portefeuille sera actualisé une fois la transaction confirmée par la Blockchain DeFi.",
         "backToWallet": "Retour au portefeuille",
         "dfiAddress": "Adresse DFI",
-        "pleaseTransferFunds": "Please transfer some DFIs to your account",
+        "pleaseTransferFunds": "Veuillez transférer quelques DFI sur votre compte",
         "txHash": "Transaction Hash",
-        "insufficientUtxos": "Insufficient UTXO",
-        "sendLPWarning": "It appears you are sending liquidity pools share (LP) tokens. Please be aware that sending your LP tokens to another DeFiChain address will transfer your liquidity pool share to that address. Sending LP tokens anywhere other than another DeFiChain wallet, such as an exchange, may result in irreversible loss of funds.",
-        "sendLPConfirm": "I confirm that I intend to send LP tokens and I acknowledge that sending LP tokens to addresses that are not DeFiChain wallets may result in irreversible loss of funds."
+        "insufficientUtxos": "UTXO insuffisant",
+        "sendLPWarning": "Il semble que vous envoyez des tokens de part de pool de liquidité (LP). Veuillez noter que l'envoi de vos tokens LP à une autre adresse DeFiChain transférera votre part de pool de liquidité à cette adresse. L'envoi de tokens LP ailleurs que dans un autre portefeuille DeFiChain, comme dans un échange, peut entraîner une perte irréversible des fonds.",
+        "sendLPConfirm": "Je confirme mon intention d'envoyer des tokens LP et je reconnais que l'envoi de tokens LP à des adresses qui ne sont pas des portefeuilles DeFiChain peut entraîner une perte irréversible de fonds."
       },
       "receivePage": {
         "receiveDFITitle": "Réception de DFI",
@@ -730,12 +730,12 @@
         "createButton": "Créer",
         "legacyAddress": "Adresse 'Legacy'",
         "addressType": "Type de l'adresse",
-        "automaticallyGenerateNewAddress": "Automatically generate a new address",
-        "showAdvanceOptions": "Show advance options",
-        "default": "Default",
+        "automaticallyGenerateNewAddress": "Générer automatiquement une nouvelle adresse",
+        "showAdvanceOptions": "Montrer les options avancées",
+        "default": "Par défaut",
         "legacy": "Legacy",
         "addReceiveAddress": "Ajoutez une adresse de réception",
-        "address": "Address",
+        "address": "Adresse",
         "enterAnAddress": "Enter an address in your account",
         "existingAddressOthers": "Invalid address. Please check that this belongs to you.",
         "existingAddress": "Address already exists.",
