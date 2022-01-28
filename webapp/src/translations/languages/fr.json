@@ -751,7 +751,7 @@
         "label": "Libellé",
         "address": "Adresse",
         "created": "Created",
-        "warningSeedPhrase": "(Warning: Not saved by seed phrase)"
+        "warningSeedPhrase": "(Avertissement : non sauvé par la phrase mnémonique)"
       },
       "paymentRequestPage": {
         "paymentRequestTitle": "Demande de paiement %{id}",
@@ -831,7 +831,7 @@
         "addBalance": "Ajouter des avoirs"
       },
       "walletAddTokensPage": {
-        "walletAddTokens": "Portefeuille –Ajout d'un tokenn",
+        "walletAddTokens": "Portefeuille – Ajout d'un token",
         "back": "Retour",
         "add": "Ajouter",
         "tokens": "Tokens",
@@ -845,11 +845,11 @@
         "paginationRange": "%{from} – %{to} sur %{total} transactions",
         "noTransactions": "Aucune transaction disponible",
         "accountToAccount": "De compte à compte",
-        "utxosToAccount": "UTXO à compte",
+        "utxosToAccount": "De UTXO à compte",
         "addPoolLiquidity": "Ajout de liquidité",
         "sent": "Envoyé",
         "removePoolLiquidity": "Retirer la liquidité",
-        "accountToUtxos": "Compte à UTXO"
+        "accountToUtxos": "Du compte à UTXO"
       },
       "encryptWalletPage": {
         "title": "Crypter le portefeuille",
@@ -868,10 +868,10 @@
     "transaction": {
       "transactionPage": {
         "transactions": "Transactions",
-        "filterByAsset": "Filter by asset",
-        "all": "All",
+        "filterByAsset": "Filtrer par actif",
+        "all": "Toutes",
         "includeRewards": "Inclure les récompenses",
-        "allAssets": "All assets"
+        "allAssets": "Tous les actifs"
       }
     },
     "console": {
